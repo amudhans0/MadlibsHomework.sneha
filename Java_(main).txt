@@ -1,0 +1,83 @@
+import java.util.Scanner;
+class MyProgram
+{
+    public static void main(String[] args)
+    {
+       Scanner input = new Scanner(System.in);
+String name,noun1,noun2,noun3,noun4,noun5,noun6,noun7,state,propername,body,month1,relative,chain,activity,verb1,verb2,verb3,verb4,verb5,verb6,adjective1,adjective2,adjective3, output = "";
+int year,month,day,age = 0;
+
+ 
+
+        System.out.print("Enter your name here: " );
+        name = input.nextLine();
+        System.out.print("Enter the year: ");
+        year = input.nextInt();
+        System.out.print("Enter Month: ");
+        month = input.nextInt();
+        System.out.print("Enter day: ");
+        day = input.nextInt();
+        System.out.print("Enter noun:");
+        noun1 = input.nextLine();
+        input.nextLine();
+        System.out.print("Wacky State: ");
+        state = input.nextLine();
+        System.out.print("Enter verb:");
+        verb1 = input.nextLine();
+        System.out.print("Enter noun:");
+        noun2 = input.nextLine();
+        System.out.print("Enter Proper Name:");
+        propername = input.nextLine(); 
+        System.out.print("Enter verb:");
+        verb2 = input.nextLine();
+        System.out.print("Enter noun:");
+        noun3 = input.nextLine();
+        System.out.print("Enter verb:");
+        verb3 = input.nextLine();
+        System.out.print("Enter noun:");
+        noun4 = input.nextLine(); 
+        System.out.print("Part of the body:");
+        body = input.nextLine();
+        System.out.print("Enter adjective:");
+        adjective1 = input.nextLine();
+        System.out.print("Enter relative:");
+        relative = input.nextLine();
+        System.out.print("Enter acitiviy:");
+        activity = input.nextLine();
+        System.out.print("Enter chain resturant:");
+        chain = input.nextLine();
+        System.out.print("Enter adjective(past tense):");
+        adjective2 = input.nextLine();
+        System.out.print("Enter month:");
+        month1 = input.nextLine();
+        System.out.print("Enter verb:");
+        verb4 = input.nextLine();
+        System.out.print("Enter noun:");
+        noun5 = input.nextLine();
+        System.out.print("Enter verb(past tense):");
+        verb5 = input.nextLine();
+        System.out.print("Enter adjective:");
+        adjective3 = input.nextLine();
+        System.out.print("Enter verb:");
+        verb6 = input.nextLine();
+        System.out.print("Enter noun:");
+        noun6 = input.nextLine();
+        System.out.print("Enter plural noun:");
+        noun7 = input.nextLine();
+        
+        String para1 = "A " + noun1 + " in " + state + " was arrested ths morning after he " + verb1 + " in front of " + noun2 + "." + propername + ", had a history of " + verb2 + ", but no one-not even his " + noun3 + "-ever imagined he'd " + verb3 + " with a " + noun4 + " stuck on his " + body + ".";
+        System.out.println(para1);
+        
+        String para2 = "I always thought he was" + adjective1 + ",but I never thought he'd do something like this. Even his " + relative + " was suprised."; 
+        System.out.println(para2);
+        
+        String para3 = "After a brief " + activity + ", cops followed him to a " + chain + ", where he reportedly" + adjective2+" in the fry machine.";
+        System.out.println(para3);
+        
+        String para4 = "In " + month + ", a woman was charged with similar crime. But rather than " + verb4 + " with a" + noun5 + ", she " + verb5 + " with a " + adjective3 + " dog.";
+        System.out.println(para4);
+        
+        String para5 = "Either way, we imagine that after witnessing him" + verb6 + " with a " + noun6 + " there are probably a whole lot of " + noun7 + " that are going to need some therapy.";
+    
+    }
+}
